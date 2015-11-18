@@ -1,0 +1,286 @@
+/* --------------------------------------
+=========================================
+   2. COMPONENTS
+=========================================
+-----------------------------------------*/
+/*---------------------------------------
+   2.1 TYPOGRAPHY
+-----------------------------------------*/
+/* HEADINGS */
+h1,
+h2 {
+	font-family: 'Cabin', Helvetica Neue, Sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 3.75rem;
+	line-height: 5rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+	line-height: 3.125rem;
+}
+
+h2 strong {
+	color: #272727;
+}
+
+h3 {
+	font-size: 1.5rem;
+	line-height: 2.375rem;
+}
+
+h4 {
+	font-size: 1.25rem;
+	line-height: 1.875rem;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/* BUTTONS */
+.standard-button {
+	font-weight: 600;
+}
+
+/* OTHER TEXTS */
+strong,
+.strong {
+	font-weight: 600;
+}
+
+.dark-text {
+	color: #454545;
+}
+
+.transparent-text {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.transparent-text-dark {
+	color: rgba(49, 49, 49, 0.5);
+}
+
+.small-text {
+	font-size: 14px;
+}
+
+.small-text-medium {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.button-text {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.price .month {
+	font-family: 'Open Sans', Helvetica Neue, Sans-serif;
+	color: #666666;
+	font-size: 16px !important;
+}
+
+/*---------------------------------------
+   2.2 BUTTONS
+-----------------------------------------*/
+.standard-button {
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 16px;
+	line-height: 1.6;
+	border: none;
+	padding: 18px 40px 18px 40px;
+	color: #ffffff;
+	-webkit-transition: none;
+	transition: none;
+}
+
+.secondary-button {
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 1.6;
+	border: none;
+	background: transparent;
+	padding: 20px 35px 20px 35px;
+	color: #ffffff;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-color: rgba(255, 255, 255, 0.5);
+	-webkit-transition: none;
+	transition: none;
+}
+
+.secondary-button:hover {
+	background: transparent;
+	border-color: #ffffff;
+}
+
+.secondary-button-dark {
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 1.6;
+	border: none;
+	background: transparent;
+	padding: 20px 35px 20px 35px;
+	color: #272727;
+	border-color: rgba(39, 39, 39, 0.5);
+	-webkit-transition: none;
+	transition: none;
+}
+
+.secondary-button-dark:hover {
+	background: transparent;
+	border-color: #272727;
+	color: #272727;
+}
+
+.navbar-register-button {
+	border: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff !important;
+	-webkit-transition: none;
+	transition: none;
+}
+
+/*---------------------------------------
+   2.3 BORDER AND LINE
+-----------------------------------------*/
+.border-right {
+	border-right: 1px solid #eaeaea;
+}
+
+.border-left {
+	border-left: 1px solid #eaeaea;
+}
+
+.colored-line-left,
+.colored-line-right,
+.colored-line,
+.white-line,
+.grey-line {
+	height: 2px;
+	width: 80px;
+	display: block;
+}
+
+.white-line {
+	background: #ffffff;
+	margin: auto;
+}
+
+.grey-line {
+	background: #eaebec;
+}
+
+.grey-line-short {
+	height: 2px;
+	width: 40px;
+	display: block;
+	background: #eaebec;
+}
+
+.white-text {
+	color: #ffffff;
+}
+
+.white-bg-border {
+	background: #ffffff;
+	border-top: 1px solid #eaebec;
+	border-bottom: 1px solid #eaebec;
+}
+
+.white-bg {
+	background: #ffffff;
+}
+
+.grey-bg {
+	border-top: 1px solid #eaebec;
+	border-bottom: 1px solid #eaebec;
+	background: #F7F8FA;
+}
+
+.dark-bg {
+	background: #2e3336;
+}
+
+.colored-line-left {
+	float: left;
+}
+
+.colored-line-right {
+	float: right;
+}
+
+.colored-line {
+	margin: auto;
+}
+
+/*---------------------------------------
+   2.4 SECTION HEADERS
+-----------------------------------------*/
+.section-header {
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+
+.section-header h2 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.sub-heading {
+	margin-top: 20px;
+}
+
+/*---------------------------------------
+   2.5 FORM ELEMENTS
+-----------------------------------------*/
+.input-box,
+.textarea-box {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	outline: 0;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	color: #999999;
+	padding-left: 21px;
+	line-height: auto;
+}
+
+.input-box {
+	min-height: 50px;
+}
+
+.textarea-box {
+	padding-top: 15px;
+}
+
+.input-box:active,
+.textarea-box:active,
+.input-box:focus,
+.textarea-box:focus {
+	color: #272727;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}

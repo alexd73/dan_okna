@@ -1,0 +1,102 @@
+
+/*---------------------------------------
+   3.1 SECTION: HOME / HEADER
+-----------------------------------------*/
+.header {
+	background: url(%=staticPrefixForCss=%assets/sections/bg.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+    .overlay-layer {
+    	padding-top: 84px;
+    	padding-bottom: 175px;
+    	height: auto;
+    }
+}
+a.phone{
+    float: right;
+    font-size: 24pt;
+    padding: 18px;
+    text-decoration: none;
+}
+
+/* STICKY NAVIGATION AND LOGO */
+.appear-on-scroll {
+	opacity: 0;
+}
+
+.sticky-navigation {
+	background: #ffffff;
+	min-height: 70px;
+	border: none;
+	font-weight: 400;
+	margin-bottom: 0 !important;
+	-webkit-backface-visibility: hidden;
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    .navbar-brand {
+	    padding: 18px 15px;
+        img {
+        	max-width: 80px;
+        	-webkit-backface-visibility: hidden;
+        }
+    }
+    .main-navigation {
+    	margin-top: 0;
+        li a {
+        	text-transform: uppercase;
+        	line-height: 34px;
+        	padding: 18px;
+        }
+    }
+}
+
+
+
+/* ONLY LOGO */
+.only-logo .navbar-header {
+	margin: auto;
+	float: none;
+}
+
+.only-logo .navbar-header img {
+	max-width: 80px;
+}
+/* INTRO */
+.intro-section {
+	margin-top: 110px;
+}
+
+.intro-section p {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.intro-section .btn-primary {
+	padding: 10px 20px 10px 20px;
+}
+
+/* VERTICAL REGISTRATION FORM */
+.vertical-registration-form {
+	background: #ffffff;
+	padding: 15px 32px 32px 32px;
+	margin-top: 84px;
+	float: right;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 3px 0px #000000;
+	box-shadow: 0px 0px 3px 0px #000000;
+}
+
+.vertical-registration-form .form-heading {
+	margin-bottom: 25px;
+}
+
+.vertical-registration-form form button {
+	margin-top: 2px;
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .vertical-registration-form {
+    width: 80%;
+  }
+}

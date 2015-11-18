@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+{{> head/head}}
+</head>
+<body>
+    <div class="preloader" style="display: none;">
+        <div class="status" style="display: none;">
+            &nbsp;
+        </div>
+    </div>
+    {{> sections/header}}
+    {{> sections/services}}
+    {{> sections/pricing}}
+    {{> sections/testimonials}}
+    {{> sections/call_to_action}}
+    {{> sections/contacts}}
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer grey-bg">
+        {{> footer/footer}}
+
+    </footer>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+    <script src="%=staticPrefix=%js/main%=hash=%%=min=%.js"></script>
+    <script>
+        /* PRE LOADER */
+        jQuery(window).load(function () {
+            "use strict";
+            jQuery(".status").fadeOut();
+            jQuery(".preloader").delay(1000).fadeOut("slow");
+        })
+    </script>
+
+</body>
+
+</html>

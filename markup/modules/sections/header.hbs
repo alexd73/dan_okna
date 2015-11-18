@@ -1,0 +1,75 @@
+<!-- =========================
+ SECTION: HOME / HEADER
+============================== -->
+<header class="header" data-stellar-background-ratio="0.5" id="home">
+    <!-- COLOR OVER IMAGE -->
+    <div class="overlay-layer">
+        <!-- STICKY NAVIGATION -->
+        <div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- LOGO ON STICKY NAV BAR -->
+                    <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#stamp-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-grid-2x2"></span>
+                    </button> -->
+
+                    <!-- LOGO -->
+                    <!-- <a class="navbar-brand" href="#">
+                        <img src="images/logo-nav.png" alt="">
+                    </a> -->
+                </div>
+                <!-- TOP BAR -->
+                <div class="navbar-collapse collapse" id="stamp-navigation">
+                    <!-- NAVIGATION LINK -->
+                    {{> menu/menu menu.lp_main classes="nav navbar-nav navbar-left main-navigation small-text"}}
+                    <a href="tel:{{sections.phone}}" class="strong phone">{{sections.phone}}</a>
+
+                </div>
+            </div>
+            <!-- /END CONTAINER -->
+        </div>
+        <!-- /END STICKY NAVIGATION -->
+        <!-- CONTAINER -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 text-left">
+                    <!-- HEADING AND BUTTONS -->
+                    <div class="intro-section">
+                        <!-- WELCOM MESSAGE -->
+                        <h1 class="intro white-text">Качественные пластиковые окна </h1>
+                        <h2 class="transparent-text">
+                            Чтобы сохранить уют и тепло в своем доме.
+                        </h2>
+                        <!-- BUTTON -->
+                        <div class="button hidden-xs">
+                            <a href="#services" class="btn btn-primary secondary-button">Узнать больше</a>
+                        </div>
+                        <!-- /END BUTTON -->
+                    </div>
+                </div>
+
+                <div class="col-md-5 pull-right">
+                    <!-- VERTICAL REGISTRATION FORM -->
+                    <div class="vertical-registration-form">
+                        <h4 class="dark-text form-heading">Закажите замер бесплатно</h4>
+                        <form class="registration-form" id="contact-form">
+                            <input type="text" id="cf-subject" name="subject" hidden>
+                            <input type="text" id="cf-name" name="name" class="form-control input-box" placeholder="Имя">
+                            {{!-- <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Электронный адрес"> --}}
+                            <input type="phone" id="cf-phone" name="phone" class="form-control input-box" placeholder="Телефон">
+                            <textarea name="message" id="cf-message" class="form-control textarea-box" rows="4" placeholder="Адрес, дополнительная информация"></textarea>
+                            <button class="btn btn-primary standard-button">Сделать заказ</button>
+                        </form>
+                        <!-- FORM SUBMIT SUCCESS / ERROR MESSAGES -->
+                        <p class="email-success dark-text small-text"><span class="icon-check-alt2 colored-text"></span>Завка принята.</p>
+                        <p class="email-error dark-text small-text">
+                            <span class="icon-close-alt2"></span>
+                            Что-то пошло не так! Проверьте правильность заполнения всех полей, или позвоните по телефону {{sections.phone}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

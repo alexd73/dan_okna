@@ -1,0 +1,47 @@
+/*---------------------------------------
+   3.3 SECTION: SERVICES
+-----------------------------------------*/
+.single-service {
+	padding: 40px 35px 40px 35px;
+	margin: 0 0 10px 0;
+	background: #ffffff;
+	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+	border-bottom: 4px solid #eaeaea;
+	border-radius: 10px;
+	transition: all ease 0.55s;
+    .service-icon {
+        border-radius: 30px;
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        &.service-1{
+            background-image: url(%=staticPrefixForCss=%assets/sections/service1.jpg);
+        }
+        &.service-2{
+            background-image: url(%=staticPrefixForCss=%assets/sections/service2.jpg);
+        }
+        &.service-3{
+            background-image: url(%=staticPrefixForCss=%assets/sections/service3.jpg);
+        }
+        &.service-4{
+            background-image: url(%=staticPrefixForCss=%assets/sections/service4.jpg);
+            float: left;
+        }
+    }
+    .service-4-wrapper{
+        float: left;
+    }
+    h3 {
+    	margin-bottom: 10px;
+    }
+}
+.services .sub-heading{
+    margin: 0 0 100px 0;
+    font-size: 24pt;
+    .phone{
+        font-weight: bold;
+    }
+
+}

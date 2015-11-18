@@ -1,0 +1,81 @@
+/*---------------------------------------
+   3.7 SECTION: PRICING TABLE
+-----------------------------------------*/
+.pricing {
+	padding-bottom: 30px;
+}
+
+.pricing-table {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.single-pricing {
+	background: #ffffff;
+	border-radius: 3px;
+	padding-bottom: 25px;
+	border: 1px solid #e4e7e7;
+	border-bottom: 4px solid #e4e7e7;
+	margin-bottom: 80px;
+	padding: 20px;
+	-webkit-transition: all ease 0.55s;
+	transition: all ease 0.55s;
+}
+
+.package-title h3 {
+	line-height: 60px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 3px;
+}
+
+.price {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 5px;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+
+.price .superscript {
+	vertical-align: super;
+	font-size: 25px;
+}
+
+.price .month {
+	font-size: inherit;
+	display: block;
+	margin-top: 0;
+	line-height: 1;
+	font-size: 14px !important;
+	font-weight: 300;
+}
+
+.package-list {
+	padding-top: 10px;
+	margin-bottom: 25px;
+}
+
+.package-list li {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border-bottom: 1px dotted #eaeaea;
+	padding-bottom: 10px;
+}
+
+.package-list li span {
+	margin-right: 8px;
+}
+
+.single-pricing .button {
+	margin-bottom: 20px;
+}
+
+.highlighted {
+	margin-top: -24px;
+}
+
+.highlighted .package-title h3 {
+	line-height: 84px;
+}

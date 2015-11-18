@@ -1,0 +1,14 @@
+{{! вызывается
+	menu/menu menu.var_from_data.js classes='Любые классы'
+}}
+
+<ul class='menu {{#if mod}} _{{mod}} {{/if}} {{#if classes}} {{classes}} {{/if}}'>
+    {{#each list}}
+        <li>
+            <a href='{{url}}'
+            	{{#if target}} target="{{target}}" {{/if}}
+            	class="menu_item {{#if itemclass}} {{itemclass}} {{/if}}"
+            >{{title}}</a>
+        </li>
+    {{/each}}
+</ul>

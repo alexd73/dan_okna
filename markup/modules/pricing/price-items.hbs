@@ -1,0 +1,38 @@
+<!-- PRICING TABLE -->
+<div class="row pricing-table">
+    {{#each pricing.items}}
+        <!-- SINGLE PACKAGE -->
+        <div class="col-md-4 wow {{#if classes}}{{classes}}{{/if}}" data-wow-offset="20" data-wow-duration="1.75s">
+            <div class="single-pricing border-bottom-hover">
+                <div class="package-title{{#if popular}} color-bg{{/if}}">
+                    <h3 class="{{#if popular}}white-text{{/if}}">{{title}}</h3>
+                    <div class="colored-line">
+                    </div>
+                </div>
+
+                <h2 class="price"><span class="superscript"></span>{{price}}<span class="month small-text"></span></h2>
+
+                <ul class="package-list">
+                    {{#if size}}
+                        <li>Размеры: <span class="dark-text strong">{{size}}</span></li>
+                    {{/if}}
+                    {{#if profile_width}}
+                        <li>Ширина профиля: <span class="dark-text strong">{{profile_width}}</span></li>
+                    {{/if}}
+                    {{#if ropr}}
+                        <li>Коэффициента сопротивления теплопередаче: <span class="dark-text strong">{{ropr}}</span></li>
+                    {{/if}}
+                </ul>
+
+                <div class="button">
+                    <a href="#home" class="btn standard-button inpage-scroll">Заказать сейчас ></a>
+                </div>
+
+                <div class="small-text uppercase">
+                    Замер и доставка бесплатно!
+                </div>
+
+            </div>
+        </div>
+    {{/each}}
+</div>

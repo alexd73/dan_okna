@@ -1,0 +1,36 @@
+/*---------------------------------------
+   3.11 SECTION: TESTIMONIALS
+-----------------------------------------*/
+.testimonials {
+	padding-bottom: 60px;
+}
+
+.feedback {
+	padding: 0 30px;
+	margin-bottom: 45px;
+}
+
+.feedback .pic-container {
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+	width: 60px;
+	height: 60px;
+	border: 3px solid #ffffff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+.feedback .pic-container img {
+	width: 100%;
+}
+
+.feedback p {
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.feedback h5 {
+	margin-bottom: 0;
+}
