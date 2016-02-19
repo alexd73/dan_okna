@@ -51,22 +51,10 @@
 
                 <div class="col-md-5 pull-right">
                     <!-- VERTICAL REGISTRATION FORM -->
-                    <div class="vertical-registration-form">
+                    <div class="vertical-registration-form wow flipInY">
                         <h4 class="dark-text form-heading">Закажите замер бесплатно</h4>
-                        <form class="registration-form" id="contact-form">
-                            <input type="text" id="cf-subject" name="subject" hidden>
-                            <input type="text" id="cf-name" name="name" class="form-control input-box" placeholder="Имя">
-                            {{!-- <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Электронный адрес"> --}}
-                            <input type="phone" id="cf-phone" name="phone" class="form-control input-box" placeholder="Телефон">
-                            <textarea name="message" id="cf-message" class="form-control textarea-box" rows="4" placeholder="Адрес, дополнительная информация"></textarea>
-                            <button class="btn btn-primary standard-button">Сделать заказ</button>
-                        </form>
-                        <!-- FORM SUBMIT SUCCESS / ERROR MESSAGES -->
-                        <p class="email-success dark-text small-text"><span class="icon-check-alt2 colored-text"></span>Завка принята.</p>
-                        <p class="email-error dark-text small-text">
-                            <span class="icon-close-alt2"></span>
-                            Что-то пошло не так! Проверьте правильность заполнения всех полей, или позвоните по телефону {{sections.phone}}
-                        </p>
+
+                        <a href="#home" class="btn btn-primary standard-button" onclick=" window.cbw.showModal();" data-wow-duration="2s" data-wow-offset="40" type="button">Вызвать замерщика</a>
                     </div>
                 </div>
             </div>
